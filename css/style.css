@@ -1,0 +1,143 @@
+body{
+font-family: tahoma, arial, sans-serif;
+margin: 0%;
+padding: 0%;
+}
+
+#principal{ 
+width: 1024px;
+margin: 50px auto;
+}
+
+.header-top{
+height: 50px;
+background: #162028;
+position: relative;
+}
+
+.logotipo{
+margin: 5px 0 0 135px;
+}
+
+.header-nav{
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+}
+
+.header-nav, ul{
+margin: 0;
+padding: 0;
+
+}
+
+.header-nav, li{
+list-style: none;
+display: inline-block;
+margin: 0 1px;
+padding: 9px;
+}
+
+.header-nav, a:hover{
+color: #6f777c;
+}
+
+
+.header-nav, a{
+color: #425564;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 12px;
+letter-spacing: 5px;
+}
+
+
+.portfolio, h1, p {
+    text-align: center;
+}
+
+.portfolio p{
+    line-height:30px;
+    color: rgb(137, 131, 131, 1);
+    font-size: 16px;
+}
+
+.portfolio h1{
+color: #1b1b1b;
+font-size: 35px;
+margin-top: 90px;
+}
+
+.gallery{
+    color: #425564;
+padding: 0 100px 50px 100px;
+overflow: auto;
+}
+
+.gallery-card{
+width: 32%;
+float: left;
+text-align: center;
+}
+
+.gallery-tittle{
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 15px;
+font-weight: bold;
+}
+
+.about{
+background-color: #003d52;
+background-image: url(../imagens/bg_detalhe.png);
+padding: 100px;
+background-repeat: no-repeat;
+background-position: right bottom;
+color: aliceblue;
+}
+
+.about p{
+line-height: 1.5;
+width: 60%;
+}
+
+.about h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: normal;
+font-size: 30px;
+}
+
+#contact{
+    margin: 20px 0;
+color: #003d52;
+text-align: center;
+
+}
+
+.adress{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.maps{
+width: 100%;
+height: 450px;
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+.footer{
+background: #162028;
+padding: 25px;
+font-size: 12px;
+color: #6f8597;
+letter-spacing: 5px;
+text-align: center;
+}
